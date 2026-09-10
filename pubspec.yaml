@@ -1,0 +1,50 @@
+name: urbanex
+description: "UrbanEx - District livability recommendations using Malaysian open data"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  supabase_flutter: ^2.10.3
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+
+# Config for flutter_launcher_icons. After `flutter pub get`, generate the
+# real launcher icons (and adaptive icon) for every platform by running:
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#2E7D4F"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    background_color: "#2E7D4F"
+    theme_color: "#2E7D4F"
+
+
