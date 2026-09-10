@@ -10,7 +10,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 /// Row Level Security policies in supabase/schema.sql.
 class SupabaseConfig {
   static const String url = 'https://nfodkmvhpmssvtwvxqjw.supabase.co';
-  static const String anonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5mb2RrbXZocG1zc3Z0d3Z4cWp3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg5OTkyMDgsImV4cCI6MjEwNDU3NTIwOH0.KkpN2KKjd_5uwgBlf6xXlcPVAy9R0XlxW9BM8jdaRgs';
+  static const String anonKey = '';
 
   static Future<void> initialize() async {
     await Supabase.initialize(
