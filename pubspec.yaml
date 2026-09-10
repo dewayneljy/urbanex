@@ -31,9 +31,6 @@ flutter:
   assets:
     - assets/icon/
 
-# Config for flutter_launcher_icons. After `flutter pub get`, generate the
-# real launcher icons (and adaptive icon) for every platform by running:
-#   dart run flutter_launcher_icons
 flutter_launcher_icons:
   android: true
   ios: true
